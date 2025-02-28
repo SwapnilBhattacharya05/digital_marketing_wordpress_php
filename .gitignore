@@ -1,0 +1,62 @@
+# Ignore WordPress core files (users will download these separately)
+wp-admin/
+wp-includes/
+
+# Ignore sensitive config files
+wp-config.php
+
+# Ignore uploads (optional, unless you need media files)
+wp-content/uploads/
+
+# Ignore plugins and themes you didn’t create
+wp-content/plugins/
+wp-content/themes/twenty*/
+
+# Ignore caching and temporary files
+wp-content/cache/
+wp-content/backup-*
+wp-content/advanced-cache.php
+wp-content/debug.log
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+
+# Ignore database files
+*.sql
+*.sqlite
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+
+# Ignore node_modules (if using npm or a build tool)
+node_modules/
+
+# Ignore vendor folder (if using Composer)
+vendor/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore environment files (if using environment variables)
+.env
+.env.local
+
+# Ignore compiled assets (if using a build tool)
+/wp-content/themes/your-theme-name/dist/
+/wp-content/themes/your-theme-name/node_modules/
+
+# Ignore Composer files (if not tracking dependencies)
+composer.lock
+composer.phar
+
+# Ignore package-lock.json (if using npm)
+package-lock.json
+
+# Ignore other unnecessary files
+*.zip
+*.tar.gz
